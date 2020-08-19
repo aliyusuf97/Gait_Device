@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/gray"
+    android:layout_margin="5dp">
+    <RelativeLayout
+        android:id="@+id/recyclerViewItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/image1"
+            android:src="@drawable/bluetooth_icon"
+            android:tint="@color/yellow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 1"
+            android:fontFamily="@font/googlesans_bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/image1"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:id="@+id/line1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 2"
+            android:layout_toEndOf="@id/image1"
+            android:textSize="15sp"
+            android:layout_below="@id/line1"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/white"
+            android:id="@+id/line2"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/image2"
+            android:tint="@color/yellow"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,50 @@
+Altium Designer Pick and Place Locations,,,,,
+Z:\Shared Folder\Gait_Analysis_Project\PCB2\PCB_Project\Project Outputs for PCB_Project\Pick Place\Pick Place for PCB.csv,,,,,
+,,,,,
+#ERROR!,,,,,
+File Design Information:,,,,,
+,,,,,
+Date:       30/05/20,,,,,
+Time:       19:02,,,,,
+Revision:   Not in VersionControl,,,,,
+Variant:    No variations,,,,,
+Units used: mm,,,,,
+,,,,,
+Designator,Comment,Layer,Center-X(mm),Center-Y(mm),Rotation
+D2,0805 LED,TopLayer,-6.7818,-5.4356,180
+D1,0805 LED,TopLayer,13.3096,2.7432,180
+U5,?AP2112K-3.3,TopLayer,-0.1524,-12.1412,180
+U4,MCP7381T,TopLayer,-11.8516,-6.4462,270
+U3,BMX055,TopLayer,-12.5984,6.223,-90
+U2,CP2104,TopLayer,9.2072,-11.2392,-90
+U1,ESP32,TopLayer,0.0508,8.5954,0
+SW2,SW,TopLayer,10.5156,-19.5982,0
+SW1,SW,TopLayer,-10.795,-19.5982,0
+R11,100K,TopLayer,-4.3989,-10.541,270
+R10,100K,TopLayer,-3.8608,-12.4206,360
+R9,4K7,TopLayer,-3.937,-5.5372,0
+R8,10K,TopLayer,12.7,-15.2908,90
+R12,3K3,TopLayer,-11.2014,14.224,90
+R7,4K7,TopLayer,-14.3256,-6.088,270
+R6,10K,TopLayer,-5.3594,-15.3416,270
+R5,4K7,TopLayer,13.1318,0.7874,180
+R4,4K7,TopLayer,-12.3016,2.5654,0
+R3,10K,TopLayer,4.953,-7.4168,180
+R2,4K7,TopLayer,-12.3444,0.8636,0
+R1,10K,TopLayer,0.4906,-7.4168,360
+Q2,MMBT2222A,TopLayer,0.4572,-4.9276,270
+Q1,MMBT2222A,TopLayer,4.9222,-4.9276,270
+P3,Header 4,TopLayer,14.224,10.8966,90
+M1,DMG3415U,TopLayer,1.2192,-15.7226,180
+J3,Header 2,TopLayer,-13.6398,14.859,90
+J2,JSTPH,TopLayer,-9.6266,-12.7668,270
+J1,USB Micro,TopLayer,0.0496,-21.3556,360
+D3,?MBR120V,TopLayer,-3.3782,-15.4686,270
+C8,10uF,TopLayer,-9.4234,-8.0946,270
+C7,10uF,TopLayer,6.5787,-13.894,270
+C6,10uF,TopLayer,-3.1541,-10.541,270
+C5,10uF,TopLayer,2.8954,-12.1921,180
+C4,10uF,TopLayer,2.8954,-11.1253,180
+C3,1uF,TopLayer,13.9445,-15.2906,90
+C2,0.1uF,TopLayer,-15.0368,5.3166,270
+C1,0.1uF,TopLayer,-11.336,10.0078,90
